@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creamy mashroom soup</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ribeye&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style> 
+ hr {
+            border-bottom: none;
+            height: 5px;
+            background-color: rgba(71, 32, 1, 0.507)
+
+        }
+    .underline {
+        border-bottom: 5px rgb(94, 50, 0);
+        background-color: rgb(205, 76, 16);
+    }
+    html,body{
+        background-color: rgb(236, 231, 210);
+        margin: 0 ;
+        font-family: "Ribeye", serif;
+        font-weight: 500;
+        font-size: larger;
+        font-style: normal;
+      
+    }
+
+    .dropcap{
+        position: absolute;
+        left: 100px;
+    }
+    main h2 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 2px;
+        background-color: rgb(194, 179, 153);
+        border: 0px solid black;
+        color: rgb(126, 69, 69);
+    }
+    h2 {
+        border
+    }
+</style>
+
+</head>
+<body>
+    <header>
+        <h1>Creamy Mashroom Soup</h1>
+        <hr>
+       
+        <img src="creamy mashroom soup.jpg" alt="Creamy Mashroom Soup" width="800" height="400">    
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <section>
+                <h2> Recipe </h2>
+                <p> ingredients </p>
+         </article>
+        </section>
+
+            <section>
+            <article></article>
+        </section>
+
+            <section>
+            <article></article>
+        </section>
+    </main>
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>
