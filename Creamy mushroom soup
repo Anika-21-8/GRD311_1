@@ -21,7 +21,7 @@
         background-color: rgb(205, 76, 16);
     }
     html,body{
-        background-color: rgb(236, 231, 210);
+        background-color: rgb(240, 237, 222);
         margin: 0 ;
         font-family: "Ribeye", serif;
         font-weight: 500;
@@ -34,16 +34,22 @@
         position: absolute;
         left: 100px;
     }
-    main h2 {
+    main h1 {
         width: 900px;
         margin: 0 auto;
         padding: 2px;
-        background-color: rgb(194, 179, 153);
+        background-color: rgb(203, 188, 163);
         border: 0px solid black;
         color: rgb(126, 69, 69);
     }
-    h2 {
-        border
+    p {
+        width: 900px;
+        margin: 0 auto;
+        padding: 0.1px;
+        background-color: rgb(170, 144, 102);
+        border: 0px solid black;
+        color: rgb(0, 0, 0);
+        Ingredients
     }
 </style>
 
@@ -60,13 +66,46 @@
         <section>
             <article>
                 <section>
-                <h2> Recipe </h2>
-                <p> ingredients </p>
-         </article>
+                <h1> Recipe </h1>
+                <p style="margin-top: 20px;">Ingredients </p>
+                <ul style="font-size: 18px;.">
+                    <li> 1/4 cup unsalted butter </li>
+                    <li> 1 ½ cup all-purpose flour </li>
+                    <li> 1 pinch salt </li>
+                    <li> 1/4 teaspoon ground black pepper </li>
+                    <li> 4 garlic peeled cloves </li>
+                    <li> 1 medium diced onion </li>
+                    <li> 1/4 teaspoon dried thyme </li>
+                    <li> 1 cup water/ milk (add more to taste) </li>
+                    <li> 4 cups chicken broth (add more to taste) </li>
+                    <li> 2 cups/ 16 ounce sliced mushrooms </li>
+                    <li> 1 cup heavy cream </li>  
+                </ul>
+                </article>
+                <p style="margin-top: 20px;">Instructions</p>
+                <ol style="font-size: 18px;">
+                    <li>Gather all ingredients.</li>
+                    <li>Melt butter in a large soup pot over medium-high heat. Add mushrooms and 1 pinch salt; cook until mushrooms release their juices, 5 to 10 minutes. Reduce heat to medium-low; continue cooking, stirring often, until juices evaporate and mushrooms are caramelized, 15 to 25 minutes. Set aside a few attractive mushroom slices for garnish later, if desired.</li>
+                    <li>Add onion to mushrooms; cook and stir until onion is soft and translucent, about 5 minutes.</li>
+                    <li>Stir in flour; cook, stirring often, to remove raw flour taste, about 2 minutes.</li>
+                    <li>Pour in 4 cups chicken broth and 1 cup water; add thyme bundle and garlic cloves. Reduce heat to low; simmer for 1 hour. Remove and discard thyme bundle.</li>
+                    <li>Fill blender halfway with soup. Cover and hold lid down with a potholder; pulse a few times before leaving on to blend until smooth and thick. Pour into a pot. Repeat with remaining soup.</li>
+                    <li>Stir in cream; if too thick, add a little chicken broth or water. Season with salt and black pepper.</li>
+                    <li>Divide soup among bowls; garnish with reserved mushroom slices and thyme leaves.</li>
+                    
         </section>
 
             <section>
-            <article></article>
+            <article>
+                <p>Nutrition Facts (per serving)</p>
+                <ul style="font-size: 18px;.">
+                    <li>Calories: 272</li>
+                    <li>Fat: 23g</li>
+                    <li>Carbohydrates: 12g</li>
+                    <li>Protein: 7g</li>
+                </ul>
+
+            </article>
         </section>
 
             <section>
