@@ -10,31 +10,41 @@
 <link href="https://fonts.googleapis.com/css2?family=Ribeye&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 <style> 
- hr {
-            border-bottom: none;
-            height: 5px;
-            background-color: rgba(71, 32, 1, 0.507)
+    hr {
+        border-bottom: none;
+        height: 5px;
+        background-color: rgba(71, 32, 1, 0.507);
+    }
 
-        }
     .underline {
         border-bottom: 5px rgb(94, 50, 0);
         background-color: rgb(205, 76, 16);
     }
-    html,body{
+
+    html, body {
         background-color: rgb(240, 237, 222);
-        margin: 0 ;
+        margin: 0;
         font-family: "Ribeye", serif;
         font-weight: 500;
         font-size: larger;
         font-style: normal;
-      
     }
 
-    .dropcap{
+    .dropcap {
         position: absolute;
         left: 100px;
     }
+
     main h1 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 2px;
+        background-color: rgb(203, 184, 163);
+        border: 0px solid black;
+        color: rgb(230, 27, 27);
+    }
+
+    main h2 {
         width: 900px;
         margin: 0 auto;
         padding: 2px;
@@ -42,6 +52,16 @@
         border: 0px solid black;
         color: rgb(126, 69, 69);
     }
+
+    main h3 {
+        width: 900px;
+        margin: 0 auto;
+        padding: 2px;
+        background-color: rgb(203, 188, 163);
+        border: 0px solid black;
+        color: rgb(126, 69, 69);
+    }
+
     p {
         width: 900px;
         margin: 0 auto;
@@ -49,24 +69,31 @@
         background-color: rgb(170, 144, 102);
         border: 0px solid black;
         color: rgb(0, 0, 0);
-        Ingredients
+    }
+
+    ul, ol {
+        width: 900px;
+        margin: 0 auto;
+        font-size: 18px;
     }
 </style>
 
 </head>
 <body>
     <header>
-        <h1>Creamy Mashroom Soup</h1>
+        <h1>HALLOWEEN SEASON SPEACIALTIES</h1>
         <hr>
        
-        <img src="creamy mashroom soup.jpg" alt="Creamy Mashroom Soup" width="800" height="400">    
     </header>
 
     <main>
         <section>
             <article>
                 <section>
-                <h1> Recipe </h1>
+                 <h2>Creamy Mashroom Soup</h2>
+                  <img src="creamy mashroom soup.jpg" alt="Creamy Mashroom Soup" width="800" height="400">    
+
+                <h3> Recipe </h3>
                 <p style="margin-top: 20px;">Ingredients </p>
                 <ul style="font-size: 18px;.">
                     <li> 1/4 cup unsalted butter </li>
@@ -104,6 +131,27 @@
                     <li>Carbohydrates: 12g</li>
                     <li>Protein: 7g</li>
                 </ul>
+                <h2>Halloween Craft Ideas</h2>
+                <h3> (Bubble Print Cauldron)</h3>
+                <p style="margin-top: 20px;">What You'll Need</p>
+                <ul style="font-size: 18px;.">
+                    <li>White A4 Card</li>
+                    <li>Acrylic Paints </li>
+                    <li> Colour Pallete</li>
+                    <li>Paint Brush</li>
+                   </ul>
+                <p style="margin-top: 20px;">How To Make </p>
+                <ol style="font-size: 18px;">
+                    <li>Step 1: In a few small containers, mix acrylic paint with a squirt of washing-up liquid and a little water.</li>
+                    <img src="Step1.png">
+                    <li>Step 2: Dip one end of a straw or cardboard tube into the paint mixture, then gently blow through the other end to create bubbles. Once the bubbles rise above the rim, carefully press your cauldron template onto them to make a print.</li>
+                    <img src="Step2.png">
+                    <li>Step 3: Repeat with different colours to fill the top of the cauldron with bubbling potion, then leave your artwork to dry completely. </li>
+                    <img src="Step3.png">
+
+
+                </ol>
+
 
             </article>
         </section>
